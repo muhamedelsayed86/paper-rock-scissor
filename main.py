@@ -4,8 +4,14 @@ def get_user_choice():
    
     while True:
         user_input = input("Choose rock, paper, or scissors : ").lower().strip()
+
+        if user_input == "quit":
+            print("Thanks for playing!")
+            exit()
+
         if user_input in ["rock", "paper", "scissors"]:
             return user_input
+   
         print("Invalid choice. Please try again")
 
 def determine_winner(user_choice, computer_choice):
