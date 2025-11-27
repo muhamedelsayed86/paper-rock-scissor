@@ -1,15 +1,15 @@
 import random
 
 def get_user_choice():
-    """Get and validate user input"""
+   
     while True:
-        user_input = input("Choose rock, paper, or scissors: ").lower().strip()
+        user_input = input("Choose rock, paper, or scissors : ").lower().strip()
         if user_input in ["rock", "paper", "scissors"]:
             return user_input
         print("Invalid choice. Please try again")
 
 def determine_winner(user_choice, computer_choice):
-    """Determine the winner based on choices"""
+   
     if user_choice == computer_choice:
         return "tie"
     elif (
@@ -22,7 +22,7 @@ def determine_winner(user_choice, computer_choice):
         return "computer"
 
 def main():
-    """Main game function."""
+   
     choices = ["rock", "paper", "scissors"]
     user_score = 0
     computer_score = 0
