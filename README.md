@@ -1,14 +1,10 @@
 # Rock-Paper-Scissors Game
 
-[![Python Version](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/)
-
 
 
 ---
 
-## ✨ Features
+##  Features
 
 -   **User-friendly Interface**: Clean text-based interaction with clear and simple prompts.
 -   **Input Validation**: Ensures that only valid choices (`rock`, `paper`, `scissors`) are accepted from the user.
@@ -16,7 +12,7 @@
 -   **Randomized Computer Choices**: Uses Python's `random` module for fair and unpredictable gameplay.
 -   **Play Again Option**: Allows for multiple rounds of play without needing to restart the program.
 
-## 🎮 How to Play
+##  How to Play
 
 1.  Run the Python script from your terminal.
 2.  When prompted, type your choice: `rock`, `paper`, or `scissors`.
@@ -28,7 +24,7 @@
 5.  Scores are displayed at the end of each round.
 6.  You will be given the option to play another round or exit the game.
 
-## 🚀 Installation & Usage
+##  Installation & Usage
 
 1.  Ensure you have **Python 3.x** installed on your system.
 2.  Download or clone the repository to your local machine.
@@ -38,7 +34,7 @@
     python rock_paper_scissors.py
     ```
 
-## 🏗️ Code Structure
+##  Code Structure
 
 The program is organized into three main functions to ensure modularity and readability:
 
@@ -58,7 +54,7 @@ This project serves as a clear demonstration of core Python concepts, including:
 -   String operations and methods
 -   User input and validation
 
-## 🔧 Future Enhancements
+##  Future Enhancements
 
 Potential improvements and future additions for this project include:
 
